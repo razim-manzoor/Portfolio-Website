@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Linkedin, Github, FileText, Globe } from "lucide-r
 
 export const USER_DATA = {
   name: "Razim Manzoor",
-  role: "Business Analyst | AI Strategist | Automation Specialist",
+  role: "Business Analyst | Data & AI Analytics | Automation",
   location: "Dubai, UAE",
   contact: {
     email: "manzoorrazim@gmail.com",
@@ -11,7 +11,7 @@ export const USER_DATA = {
     linkedin: "https://www.linkedin.com/in/razim-manzoor",
   },
   summary:
-    "Business Strategist & AI Implementer. I don't just analyze data; I build the systems that automate the analysis.",
+    "MBA-qualified Business and Data Analyst with experience across digital transformation, data analytics, and AI-enabled solutions. Strong ability to translate business requirements into analytical and automated solutions using Power BI, Python, SQL, and workflow automation tools.",
   detailedBio: [
     "Bridging the gap between technical complexity and business reality.",
     "Specialized in: Automated Workflows (Power Automate), GenAI Solutions (RAG), and Real-time Intelligence (Power BI).",
@@ -53,10 +53,10 @@ export const USER_DATA = {
       location: "Kochi, India",
       period: "Jun 2024 -- Mar 2025",
       achievements: [
-        "End-to-End Development: Spearheaded the full-stack development of 15+ scalable data solutions, utilizing Python, SQL, and Deep Learning to solve complex business logic challenges.",
-        "Revenue Strategy: Engineered a predictive Customer Segmentation model (Machine Learning) that identified a projected 15% revenue uplift, delivering actionable targets to sales teams.",
-        "Business Intelligence: Managed the migration of legacy data reporting into real-time Power BI dashboards, reducing executive reporting latency by 95% (from 3 days to 2 hours).",
-        "Certification: Achieved Grade A+ in Data Science & Python Implementation, mastering the deployment of AI models for enterprise use cases.",
+        "End-to-End Development: Spearheaded the development of a portfolio of scalable data and analytics solutions, utilizing Python, SQL, and Deep Learning to address complex business logic challenges.",
+        "Revenue Strategy: Engineered a predictive customer segmentation model using Machine Learning that identified a projected 15% revenue uplift opportunity, delivering actionable insights to sales teams.",
+        "Business Intelligence: Managed the migration of legacy reporting into real-time Power BI dashboards, reducing executive reporting latency by 95% (from 3 days to 2 hours).",
+        "Capability Validation: Achieved an A+ grade in Data Science & Python implementation, demonstrating proficiency in deploying analytical and AI models for enterprise use cases.",
       ],
     },
     {
@@ -66,10 +66,10 @@ export const USER_DATA = {
       location: "Kochi, India",
       period: "Nov 2023 -- May 2024",
       achievements: [
-        "Led a finance automation initiative using Power Automate, streamlining invoice processing workflows which reduced manual data entry effort by 45%.",
-        "Conducted Process Mining to map operational workflows, identifying bottlenecks and implementing RPA solutions that improved cycle times by 20%.",
-        "Designed HR Analytics Dashboards to visualize attrition and engagement KPIs, enabling data-driven resource planning.",
-        "Collaborated on deploying automated solutions via Azure, ensuring scalable and secure data handling.",
+        "Digital Transformation: Led a finance automation initiative using Power Automate, streamlining invoice processing workflows and reducing manual data entry effort by 45%.",
+        "Process Optimization: Conducted process mining to map operational workflows, identify bottlenecks, and support RPA-driven cycle time improvements of 20%.",
+        "Workforce Analytics: Designed HR analytics dashboards to visualize attrition and engagement KPIs, enabling data-driven workforce planning.",
+        "Cloud Integration: Collaborated on Azure-based deployments to ensure scalable and secure automation solutions.",
       ],
     },
   ],
@@ -111,26 +111,28 @@ export const USER_DATA = {
       title: "LiquidityAI: Automated Accounts Receivable Engine",
       tech: ["Python", "Streamlit", "AI Agents", "Zero-Touch"],
       link: "https://www.linkedin.com/posts/razim-manzoor_the-operational-efficiency-post-activity-7411345989959147520-ghxo",
-      description: "Developed a 'Zero-Touch' Python system to automate invoice collections, reducing daily manual effort by 80% (3 hours to 5 minutes). Engineered a tiered logic gate (VIP vs. High Risk) to customize communication tone.",
+      description: "Developed a zero-touch Python automation system to streamline invoice follow-ups, reducing daily manual effort by 80%. Implemented tiered customer prioritization logic (VIP vs. High Risk) to balance relationship management with liquidity recovery.",
     },
     {
       title: "Secure Document Analysis Agent (Local RAG)",
       tech: ["DeepSeek", "Ollama", "RAG", "Privacy-focused"],
       link: "https://www.linkedin.com/posts/razim-manzoor_rag-llm-ai-activity-7313875466493259776-90vf",
-      description: "Built a privacy-focused AI tool allowing businesses to query internal PDFs without external data exposure. Leveraged DeepSeek & Ollama to create a local 'Chat with your Data' solution.",
+      description: "Built a privacy-focused AI solution enabling secure querying of internal PDFs without external data exposure. Implemented offline LLM workflows using DeepSeek and Ollama to ensure 100% on-premise data processing.",
     },
     {
       title: "Automated Quality Control System",
       tech: ["CNN", "Computer Vision", "Deep Learning"],
       link: "https://github.com/razim-manzoor/Plant-Disease-Classification-CNN",
-      description: "Developed a Convolutional Neural Network (CNN) model to automate image classification, simulating an industrial Quality Assurance (QA) workflow. Reduced manual inspection time and human error rates.",
+      description: "Developed a CNN-based image classification model to simulate an industrial quality assurance workflow. Applied data augmentation and preprocessing techniques to improve robustness and consistency under varying conditions.",
     },
   ],
   certifications: [
-    "KPMG Data Analytics Consulting Virtual Internship",
-    "Accenture Data Analytics & Visualization Virtual Experience",
     "Google Advanced Data Analytics Professional Certificate",
     "Generative AI with Large Language Models (Coursera)",
     "Google Data Analytics Specialization",
+    "KPMG Data Analytics Consulting Virtual Internship",
+    "Accenture Data Analytics & Visualization Virtual Experience",
+    "1st Place, Marketing Event -- Encore 2020",
+    "3rd Place, Marketing Event -- Manaquest 2020",
   ],
 };
