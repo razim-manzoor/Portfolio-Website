@@ -102,18 +102,27 @@ export const USER_DATA = {
   ],
   projects: [
     {
+      title: "Manifest: AI-Native Career CRM",
+      tech: ["React 19", "Tailwind CSS", "Generative AI", "Product Strategy"],
+      link: "https://www.linkedin.com/posts/razim-manzoor_productmanagement-businessstrategy-dubai-activity-7402331627022192640-u-II",
+      description: "A gamified Career CRM tailored for the UAE market. Applied behavioral design (XP systems) to combat 'spreadsheet fatigue' and built a 'Visit Visa Monitor' to manage strategic timeline constraints. Proves that business strategists can execute.",
+    },
+    {
       title: "LiquidityAI: Automated Accounts Receivable Engine",
       tech: ["Python", "Streamlit", "AI Agents", "Zero-Touch"],
+      link: "https://www.linkedin.com/posts/razim-manzoor_the-operational-efficiency-post-activity-7411345989959147520-ghxo",
       description: "Developed a 'Zero-Touch' Python system to automate invoice collections, reducing daily manual effort by 80% (3 hours to 5 minutes). Engineered a tiered logic gate (VIP vs. High Risk) to customize communication tone.",
     },
     {
       title: "Secure Document Analysis Agent (Local RAG)",
       tech: ["DeepSeek", "Ollama", "RAG", "Privacy-focused"],
+      link: "https://www.linkedin.com/posts/razim-manzoor_rag-llm-ai-activity-7313875466493259776-90vf",
       description: "Built a privacy-focused AI tool allowing businesses to query internal PDFs without external data exposure. Leveraged DeepSeek & Ollama to create a local 'Chat with your Data' solution.",
     },
     {
       title: "Automated Quality Control System",
       tech: ["CNN", "Computer Vision", "Deep Learning"],
+      link: "https://github.com/razim-manzoor/Plant-Disease-Classification-CNN",
       description: "Developed a Convolutional Neural Network (CNN) model to automate image classification, simulating an industrial Quality Assurance (QA) workflow. Reduced manual inspection time and human error rates.",
     },
   ],
