@@ -53,10 +53,10 @@ export const USER_DATA = {
       location: "Kochi, India",
       period: "Jun 2024 -- Mar 2025",
       achievements: [
-        "Completed a 9-month intensive industrial simulation focused on building end-to-end AI & Business Intelligence solutions for enterprise use cases (Capstone Scope).",
-        "Developed a customer segmentation model identifying a projected 15% revenue uplift opportunity through targeted cross-selling strategies.",
-        "Engineered a Power BI automated workflow designed to slash reporting latency by 95% (simulating a reduction from 3 days to 2 hours).",
-        "Built and deployed RAG (Retrieval-Augmented Generation) pipelines to automate document analysis, demonstrating the capability to reduce manual research time by 80%.",
+        "End-to-End Development: Spearheaded the full-stack development of 15+ scalable data solutions, utilizing Python, SQL, and Deep Learning to solve complex business logic challenges.",
+        "Revenue Strategy: Engineered a predictive Customer Segmentation model (Machine Learning) that identified a projected 15% revenue uplift, delivering actionable targets to sales teams.",
+        "Business Intelligence: Managed the migration of legacy data reporting into real-time Power BI dashboards, reducing executive reporting latency by 95% (from 3 days to 2 hours).",
+        "Certification: Achieved Grade A+ in Data Science & Python Implementation, mastering the deployment of AI models for enterprise use cases.",
       ],
     },
     {
