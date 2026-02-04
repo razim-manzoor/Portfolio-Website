@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Calculator, DollarSign, Clock } from "lucide-react";
+import { Calculator, Clock } from "lucide-react";
 
 export default function RoiCalculator() {
     const [hours, setHours] = useState(10);
@@ -33,12 +33,12 @@ export default function RoiCalculator() {
                                 The Cost of <span className="text-gray-400 dark:text-gray-500 line-through">Thinking</span> Waiting.
                             </h2>
                             <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-8">
-                                Business value isn't abstract—it's mathematical.
-                                I don't just "do data"; I build systems that remove human latency from the equation.
+                                Business value isn&apos;t abstract—it&apos;s mathematical.
+                                I don&apos;t just &quot;do data&quot;; I build systems that remove human latency from the equation.
                             </p>
                             <div className="p-6 bg-primary/5 dark:bg-white/5 border-l-2 border-primary rounded-r-xl">
                                 <p className="italic text-gray-600 dark:text-gray-300">
-                                    "Excellence is achieved not by adding mental models, but by systematically removing biases and noise (Subtractive Cognition)."
+                                    &quot;Excellence is achieved not by adding mental models, but by systematically removing biases and noise (Subtractive Cognition).&quot;
                                 </p>
                             </div>
                         </motion.div>

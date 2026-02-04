@@ -10,10 +10,18 @@ export default function Footer() {
 
             <div className="container mx-auto px-6 text-center">
                 <h2 className="text-4xl font-bold mb-8 text-foreground dark:text-white">Ready to Optimize?</h2>
-                <p className="text-gray-600 dark:text-gray-400 max-w-xl mx-auto mb-12">
-                    Currently available for full-time opportunities in Dubai.
-                    Let's discuss how I can help your team with Business Analysis and AI Strategy.
-                </p>
+                <div className="flex flex-col items-center gap-6 mb-12">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-green-600 dark:text-green-400 text-sm font-medium">
+                        <span className="relative flex h-2.5 w-2.5">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+                        </span>
+                        Available for opportunities in Dubai
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
+                        Let&apos;s discuss how I can help your team with Business Analysis and AI Strategy.
+                    </p>
+                </div>
 
                 <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-16">
                     <a

@@ -1,0 +1,37 @@
+
+> portfolio@0.1.0 lint
+> eslint
+
+
+R:\Projects\PersonalWebsite\app\page.tsx
+  9:10  warning  'USER_DATA' is defined but never used  @typescript-eslint/no-unused-vars
+
+R:\Projects\PersonalWebsite\components\ThemeToggle.tsx
+  13:9  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+R:\Projects\PersonalWebsite\components\ThemeToggle.tsx:13:9
+  11 |
+  12 |     useEffect(() => {
+> 13 |         setMounted(true);
+     |         ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  14 |     }, []);
+  15 |
+  16 |     if (!mounted) return null;  react-hooks/set-state-in-effect
+
+R:\Projects\PersonalWebsite\lib\data.ts
+  2:10  warning  'Mail' is defined but never used      @typescript-eslint/no-unused-vars
+  2:16  warning  'Phone' is defined but never used     @typescript-eslint/no-unused-vars
+  2:23  warning  'MapPin' is defined but never used    @typescript-eslint/no-unused-vars
+  2:31  warning  'Linkedin' is defined but never used  @typescript-eslint/no-unused-vars
+  2:41  warning  'Github' is defined but never used    @typescript-eslint/no-unused-vars
+  2:49  warning  'FileText' is defined but never used  @typescript-eslint/no-unused-vars
+  2:59  warning  'Globe' is defined but never used     @typescript-eslint/no-unused-vars
+
+Γ£û 9 problems (1 error, 8 warnings)
+

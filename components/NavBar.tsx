@@ -95,6 +95,12 @@ export default function NavBar() {
                             >
                                 Download Resume
                             </a>
+                            <div className="flex items-center justify-between mt-4 border-t border-black/5 dark:border-white/10 pt-4">
+                                <span className="text-sm font-medium text-gray-500 dark:text-gray-400">Appearance</span>
+                                <div onClick={(e) => e.stopPropagation()}>
+                                    <ThemeToggle />
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
                 )}

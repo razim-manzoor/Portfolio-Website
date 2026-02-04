@@ -3,7 +3,7 @@
 
 import { USER_DATA } from "@/lib/data";
 import { motion } from "framer-motion";
-import { Briefcase, GraduationCap, Calendar, MapPin } from "lucide-react";
+import { Calendar, MapPin } from "lucide-react";
 
 export default function ExperienceTimeline() {
     return (

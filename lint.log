@@ -1,0 +1,64 @@
+
+> portfolio@0.1.0 lint
+> eslint
+
+
+R:\Projects\PersonalWebsite\app\not-found.tsx
+  16:55  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  17:24  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+R:\Projects\PersonalWebsite\app\page.tsx
+   9:10  warning  'USER_DATA' is defined but never used  @typescript-eslint/no-unused-vars
+  10:10  warning  'Mail' is defined but never used       @typescript-eslint/no-unused-vars
+  10:16  warning  'Linkedin' is defined but never used   @typescript-eslint/no-unused-vars
+  10:26  warning  'Phone' is defined but never used      @typescript-eslint/no-unused-vars
+
+R:\Projects\PersonalWebsite\components\ExperienceTimeline.tsx
+  6:10  warning  'Briefcase' is defined but never used      @typescript-eslint/no-unused-vars
+  6:21  warning  'GraduationCap' is defined but never used  @typescript-eslint/no-unused-vars
+
+R:\Projects\PersonalWebsite\components\Footer.tsx
+  22:28  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+R:\Projects\PersonalWebsite\components\HeroSection.tsx
+  26:30  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+R:\Projects\PersonalWebsite\components\RoiCalculator.tsx
+   6:22   warning  'DollarSign' is defined but never used                           @typescript-eslint/no-unused-vars
+  36:51   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  36:65   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  37:38   error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  37:46   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  37:54   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  41:37   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  41:162  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+
+R:\Projects\PersonalWebsite\components\ThemeToggle.tsx
+  13:9  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+R:\Projects\PersonalWebsite\components\ThemeToggle.tsx:13:9
+  11 |
+  12 |     useEffect(() => {
+> 13 |         setMounted(true);
+     |         ^^^^^^^^^^ Avoid calling setState() directly within an effect
+  14 |     }, []);
+  15 |
+  16 |     if (!mounted) return null;  react-hooks/set-state-in-effect
+
+R:\Projects\PersonalWebsite\lib\data.ts
+  2:10  warning  'Mail' is defined but never used      @typescript-eslint/no-unused-vars
+  2:16  warning  'Phone' is defined but never used     @typescript-eslint/no-unused-vars
+  2:23  warning  'MapPin' is defined but never used    @typescript-eslint/no-unused-vars
+  2:31  warning  'Linkedin' is defined but never used  @typescript-eslint/no-unused-vars
+  2:41  warning  'Github' is defined but never used    @typescript-eslint/no-unused-vars
+  2:49  warning  'FileText' is defined but never used  @typescript-eslint/no-unused-vars
+  2:59  warning  'Globe' is defined but never used     @typescript-eslint/no-unused-vars
+
+Γ£û 26 problems (12 errors, 14 warnings)
+

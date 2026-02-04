@@ -18,12 +18,12 @@ export default function HeroSection() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <span className="inline-block py-1 px-3 rounded-full bg-primary/10 border border-primary/20 text-primary dark:text-primary dark:bg-white/5 dark:border-white/10 text-sm font-medium mb-6">
+                    <span className="inline-block py-1 px-3 rounded-full bg-primary/10 border border-primary/20 text-primary dark:text-primary dark:bg-white/5 dark:border-white/10 text-xs md:text-sm font-medium mb-6 text-balance">
                         Based in {USER_DATA.location} • Available for immediate joining
                     </span>
 
                     <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6">
-                        Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-dark to-primary dark:from-white dark:to-gray-400">{USER_DATA.name}</span>
+                        Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-dark to-primary dark:from-white dark:to-gray-400">{USER_DATA.name}</span>
                     </h1>
 
                     <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-400 font-light mb-8 max-w-3xl mx-auto">

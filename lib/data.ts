@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, Linkedin, Github, FileText, Globe } from "lucide-react";
+
 
 export const USER_DATA = {
   name: "Razim Manzoor",
