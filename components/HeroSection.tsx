@@ -9,8 +9,8 @@ export default function HeroSection() {
     return (
         <section id="home" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
             {/* Background Gradients */}
-            <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[120px] -z-10 animate-pulse" />
-            <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-blue-900/20 rounded-full blur-[100px] -z-10" />
+            <div className="absolute top-0 left-1/4 w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-primary/20 rounded-full blur-[80px] md:blur-[120px] -z-10 animate-pulse" />
+            <div className="absolute bottom-0 right-1/4 w-[300px] h-[300px] md:w-[400px] md:h-[400px] bg-blue-900/20 rounded-full blur-[60px] md:blur-[100px] -z-10" />
 
             <div className="container mx-auto px-6 text-center z-10">
                 <motion.div
